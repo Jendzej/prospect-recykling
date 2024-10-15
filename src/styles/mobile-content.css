@@ -1,0 +1,114 @@
+@media only screen and (max-width: 600px) {
+    .content-header, .about-us > .content-header {
+        color: var(--secondary-text);
+        width: 80%;
+        margin: auto;
+        font-size: 7vw;
+        padding: 5% 0 1.5% 0;
+        text-align: center;
+        line-height: 8vw;
+    }
+    a.phone-href:link, a.phone-href:hover, a.phone-href:visited, a.phone-href:active {
+        text-decoration: none;
+        color: var(--secondary-text);
+        font-weight: bold;
+        background: rgba(255, 255, 255, 0);
+    }
+    #content-main {
+        width: 87%;
+        margin: auto;
+    }
+    #content-main > p{
+        font-size: 4.2vw;
+        line-height: 4.2vw;
+        margin: 5px;
+        text-align: center;
+    }
+    .content-last-p {
+        font-size: 4.4vw !important;
+        font-weight: bold;
+        padding: 15px 0 50px 0;
+    }
+    #content-materials {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 10px;
+        justify-content: center;
+    }
+    .material {
+        margin: auto;
+        width: 100%;
+        height: 16vh;
+        object-position: center;
+        background-repeat: no-repeat;
+        object-fit: contain;
+        background-size: cover;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .material > h1 {
+        background: rgba(255, 255, 255, 0);
+        color: var(--primary-background);
+        font-size: 7vw;
+    }
+    #content-main-2{
+        background: var(--secondary-background);
+        padding: 0 0 20px 0;
+    }
+    .transparent-background {
+        background: rgba(255, 255, 255, 0);
+    }
+    #content-main-2-ul, .content-how-it-works, .about-us {
+        list-style-type: none;
+        width: 87%;
+        margin: auto;
+    }
+    #content-main-2-ul > li > div, .content-main-2-ul-header {
+        background: rgba(255, 255, 255, 0);
+    }
+    .content-main-2-ul-header {
+        font-size: 4.2vw;
+        padding: 5px;
+    }
+    .content-main-2-ul-container {
+        font-size: 4.2vw;
+        padding: 5px;
+        margin: 0 0 20px 0;
+        line-height: 4.4vw;
+    }
+    #content-main-3 {
+        padding: 0;
+        margin-top: 0; !important;
+    }
+    #content-main-4, #content-main-4 > *, .about-us > * {
+        background-color: var(--secondary-background);
+        padding: 0 0 1vw 0;
+    }
+    #contact {
+        text-align: center;
+        font-size: 3.5vw;
+        padding: 5px;
+        margin: 0 0 20px 0;
+        line-height: 4vw;
+    }
+    a.contact-href:link, a.contact-href:visited, a.contact-href:active {
+        color: var(--primary-text);
+        text-decoration: none;
+        background: rgba(255, 255, 255, 0);
+        transition: 0.3s ease-in-out;
+    }
+    a.contact-href:hover {
+        color: var(--secondary-text);
+        transition: 0.3s ease-in-out;
+    }
+    #contact-image {
+        background: rgba(255, 255, 255, 0);
+        width: 40vw;
+    }
+    #prospect-map {
+        height: 300px;
+    }
+}
