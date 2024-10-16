@@ -22,11 +22,14 @@
     object-fit: contain;
     background-size: cover;
 }
-.background-image img {
-    width: 100%;
-    padding: 2% 0 2% 0;
-    height: 60vh;
-    object-fit: cover;
-    scroll-behavior: smooth;
-    object-position: 20% 70%;
+#footer-href {
+text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: var(--secondary-text);
+}
+.footer-text {
+    text-align: center;
+    font-size: 0.9vw;
+    padding: 3px;
 }

@@ -83,10 +83,10 @@ a.phone-href:link, a.phone-href:hover, a.phone-href:visited, a.phone-href:active
     text-align: center;
     font-size: 1.5vw;
     padding: 5px;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
     line-height: 2vw;
 }
-a.contact-href:link, a.contact-href:visited, a.contact-href:active {
+.contact-href:link, .contact-href:visited, .contact-href:active {
     color: var(--primary-text);
     text-decoration: none;
     background: rgba(255, 255, 255, 0);
@@ -99,4 +99,8 @@ a.contact-href:hover {
 #contact-image {
     background: rgba(255, 255, 255, 0);
     width: 20vw;
+}
+#facebook-href {
+    margin-top: 1vw;
+    width: 2.5vw;
 }
