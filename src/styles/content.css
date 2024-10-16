@@ -100,7 +100,10 @@ a.contact-href:hover {
     background: rgba(255, 255, 255, 0);
     width: 20vw;
 }
-#facebook-href {
+#facebook-href, #ig-href {
     margin-top: 1vw;
     width: 2.5vw;
+}
+#facebook-href {
+    margin-right: 1vw;
 }

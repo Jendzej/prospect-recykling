@@ -111,8 +111,11 @@
     #prospect-map {
         height: 300px;
     }
-    #facebook-href {
+    #facebook-href, #ig-href {
         margin-top: 2vw;
         width: 7vw;
+    }
+    #facebook-href {
+        margin-right: 2vw;
     }
 }
