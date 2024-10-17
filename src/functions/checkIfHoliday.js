@@ -17,8 +17,7 @@ let today = new Date().toISOString().slice(0, 10)
 let year = today.slice(0, 4)
 let month = today.slice(5, 7)
 let day = today.slice(8, 10)
-// let dayOfWeek = new Date().getDay()
-let dayOfWeek = 7
+let dayOfWeek = new Date().getDay()
 isHoliday = false
 if (year in holidays) {
     if (month in holidays[year]) {
