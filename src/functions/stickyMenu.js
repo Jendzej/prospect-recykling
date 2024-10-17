@@ -16,7 +16,7 @@ window.onscroll = function() {
     } else if (window.scrollY === sticky) {
         menu.innerHTML = `<header id="main-header">
     <div>
-        <h1>Prospect Recykling</h1>
+        <h1>Prospect Recycling</h1>
         <p>SKUP ZŁOMU I METALI KOLOROWYCH</p>
     </div>
     <div id="main-header-right" onclick="location.href = 'https://maps.app.goo.gl/pZrEcrVfdxGKKzRv7'">
