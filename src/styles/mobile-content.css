@@ -118,4 +118,10 @@
     #facebook-href {
         margin-right: 2vw;
     }
+    #static-phone {
+        position: fixed;
+        bottom: 3vw;
+        right: 3vw;
+        width: 14vw;
+    }
 }

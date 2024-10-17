@@ -43,3 +43,8 @@ img.logo {
     color: var(--secondary-text);
     transition: 0.3s ease-in;
 }
+#header-logo-text {
+    height: 4vw;
+    margin: 0;
+    padding: 0;
+}
