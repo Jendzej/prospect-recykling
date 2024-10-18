@@ -17,7 +17,8 @@ let today = new Date().toISOString().slice(0, 10)
 let year = today.slice(0, 4)
 let month = today.slice(5, 7)
 let day = today.slice(8, 10)
-let dayOfWeek = new Date().getDay()
+// let dayOfWeek = new Date().getDay()
+let dayOfWeek = 7
 isHoliday = false
 if (year in holidays) {
     if (month in holidays[year]) {
@@ -46,7 +47,14 @@ function checkIfHoliday() {
         <h2>
         W niedziele i święta nie handlujemy.
         </h2>
-        
+        <div id="holiday-open-hours">
+            <p style="padding-top: 10px;">
+                <b>Godziny otwarcia</b>
+                <br>
+                Od poniedziałku do piątku 9:00 - 16:00<br>
+                Sobota 8:00 - 13:00
+            </p>
+        </div>
     </div>
         `
     }
