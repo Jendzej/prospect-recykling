@@ -26,8 +26,9 @@ let today = new Date().toISOString().slice(0, 10)
 let year = today.slice(0, 4)
 let month = today.slice(5, 7)
 let day = today.slice(8, 10)
-// let dayOfWeek = new Date().getDay()
-let dayOfWeek = 7
+let dayOfWeek = new Date().getDay()
+// let dayOfWeek = 7
+console.log(dayOfWeek)
 isHoliday = false
 if (year in holidays) {
     if (month in holidays[year]) {
@@ -36,7 +37,7 @@ if (year in holidays) {
         }
     }
 }
-if (dayOfWeek === 7) {
+if (dayOfWeek === 0) {
     isHoliday = true
 }
 
@@ -67,4 +68,9 @@ function checkIfHoliday() {
     </div>
         `
     }
+}
+if (document.readyState === 'complete') {
+    checkIfHoliday();
+} else {
+    window.addEventListener('load', checkIfHoliday);
 }
