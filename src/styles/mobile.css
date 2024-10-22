@@ -1,0 +1,21 @@
+@media only screen and (max-width: 600px) {
+    .background-image {
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-attachment: initial;
+        background-position: center center;
+    }
+
+    #footer-href {
+        text-align: center;
+        margin: auto;
+        text-decoration: none;
+        color: var(--secondary-text);
+    }
+
+    .footer-text {
+        text-align: center;
+        font-size: 1.7vw;
+        padding: 3px;
+    }
+}

@@ -1,0 +1,115 @@
+.content-header {
+    color: var(--secondary-text);
+    font-size: 3.5vw;
+    margin: 1.7% 0 1.5% 0;
+    text-align: center;
+}
+a.phone-href:link, a.phone-href:hover, a.phone-href:visited, a.phone-href:active {
+    text-decoration: none;
+    color: var(--secondary-text);
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0);
+}
+#content-main > p{
+    font-size: 1.4vw;
+    line-height: 1.4vw;
+    margin: 5px;
+    text-align: center;
+}
+.content-last-p {
+    font-size: 1.7vw !important;
+    font-weight: bold;
+    padding: 5px 0 30px 0;
+}
+#content-materials {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+}
+.material {
+    width: 30%;
+    height: 16vh;
+    object-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.material > h1 {
+    background: rgba(255, 255, 255, 0);
+    color: var(--primary-background);
+    font-size: 3.5vw;
+}
+#content-main-2{
+    margin-top: 7vh;
+    padding: 3vh 0 3vh 0;
+    background: var(--secondary-background);
+}
+.transparent-background {
+    background: rgba(255, 255, 255, 0);
+}
+#content-main-2-ul, .content-how-it-works, .about-us {
+    list-style-type: none;
+    width: 60%;
+    margin: auto;
+}
+#content-main-2-ul > li > div, .content-main-2-ul-header {
+    background: rgba(255, 255, 255, 0);
+}
+.content-main-2-ul-header {
+    font-size: 2.5vw;
+    padding: 5px;
+}
+.content-main-2-ul-container {
+    font-size: 1.5vw;
+    padding: 5px;
+    margin: 0 0 20px 0;
+    line-height: 2vw;
+}
+#content-main-3 {
+    margin-top: 2vh;
+    padding: 3vh 0 3vh 0;
+}
+#content-main-4, #content-main-4 > *, .about-us > * {
+    background-color: var(--secondary-background);
+    padding: 1vw 0 1vw 0;
+}
+#contact {
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 5px;
+    margin: 0 0 10px 0;
+    line-height: 2vw;
+}
+.contact-href:link, .contact-href:visited, .contact-href:active {
+    color: var(--primary-text);
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0);
+    transition: 0.3s ease-in-out;
+}
+a.contact-href:hover {
+    color: var(--secondary-text);
+    transition: 0.3s ease-in-out;
+}
+#contact-image {
+    background: rgba(255, 255, 255, 0);
+    width: 20vw;
+}
+#facebook-href, #ig-href {
+    margin-top: 1vw;
+    width: 2.5vw;
+}
+#facebook-href {
+    margin-right: 1vw;
+}
+#static-phone {
+    position: fixed;
+    bottom: 2vw;
+    right: 2vw;
+    width: 5vw;
+}

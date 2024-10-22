@@ -1,0 +1,32 @@
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#holiday-image {
+    width: 50%;
+    margin-top: 7%;
+}
+#holiday-content {
+    text-align: center;
+    transition: 2s ease-in;
+    animation: 0.3s ease-out 0s 1 slideInFromLeft;
+}
+#holiday-header {
+    font-size: 5vw;
+    color: var(--secondary-text);
+    margin-bottom: 1vw;
+}
+#holiday-content > h2 {
+    padding: 1vw;
+}
+#holiday-open-hours {
+    margin-top: 5%;
+}
+#holiday-open-hours > * {
+    line-height: 2vw;
+}

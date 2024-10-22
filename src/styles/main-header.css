@@ -1,0 +1,50 @@
+#main-header {
+    position: sticky;
+    top: 0;
+    transition: top 5s;
+    width: 100%;
+    border-bottom: 1px solid #a5a5a5;
+}
+#main-header > div > *{
+    background-color: var(--secondary-background);
+    width: 100%;
+    text-align: center;
+    margin:auto;
+    padding: 2% 0 0 0;
+    color: var(--secondary-text);
+    font-size: 4vw;
+}
+#main-header > div > p{
+    color: var(--primary-text);
+    font-size: 1.6vw;
+    margin: 0;
+    padding: 0.8% 0 1% 0;
+}
+img.logo {
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 1% 32% 0 32%;
+}
+#main-header-right {
+    float: right;
+    right: 0;
+    top:0;
+    margin: auto;
+    padding: 3vw 1.5vw 0 0;
+    position: absolute;
+    line-height: 2vw;
+    background-color: var(--secondary-background);
+}
+#main-header-right > * {
+    transition: 0.3s ease-out;
+}
+#main-header-right:hover > *{
+    cursor: pointer;
+    color: var(--secondary-text);
+    transition: 0.3s ease-in;
+}
+#header-logo-text {
+    height: 4vw;
+    margin: 0;
+    padding: 0;
+}

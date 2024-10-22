@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+    #holiday-image {
+        margin-top: 20%;
+        width: 75%;
+    }
+    #holiday-header {
+        font-size: 10vw;
+        padding: 12% 0 8% 0;
+    }
+    #holiday-open-hours {
+        margin-top: 5%;
+    }
+    #holiday-open-hours > * {
+        line-height: 4.5vw;
+    }
+}
