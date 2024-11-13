@@ -27,12 +27,13 @@ let year = today.slice(0, 4)
 let month = today.slice(5, 7)
 let day = today.slice(8, 10)
 let dayOfWeek = new Date().getDay()
-// let dayOfWeek = 7
-console.log(dayOfWeek)
 isHoliday = false
 if (year in holidays) {
+    console.log("1")
     if (month in holidays[year]) {
-        if (day in holidays[year][month]) {
+        console.log(holidays[year][month].includes(parseInt(day)))
+        if (holidays[year][month].includes(parseInt(day))) {
+            console.log(day, holidays[year][month])
             isHoliday = true
         }
     }
